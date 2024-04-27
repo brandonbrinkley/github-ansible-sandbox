@@ -16,4 +16,4 @@ jobs:
       with:
         playbook: repositories.yml
         options: |
-          --extra-vars REPO_TOKEN=${{ secrets.REPO_TOKEN }}
+          --extra-vars REPO_TOKEN=${{ secrets.GITHUB_TOKEN }}
