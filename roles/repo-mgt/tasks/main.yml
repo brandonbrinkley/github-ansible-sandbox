@@ -1,6 +1,6 @@
 - name: List Repositories
   uri:
-    url: https://api.github.com/brandonbrinkley/repos
+    url: https://api.github.com/orgs/brandonbrinkley/repos
     method: GET
     return_content: true
     headers:
