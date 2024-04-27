@@ -1,6 +1,6 @@
 - name: List Repositories
   uri:
-    url: https://api.github.com/orgs/brandonbrinkley/repos
+    url: https://api.github.com/users/brandonbrinkley/repos
     method: GET
     password: "{{ REPO_TOKEN }}"
     return_content: true
