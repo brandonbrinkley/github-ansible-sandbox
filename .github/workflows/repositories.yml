@@ -15,3 +15,5 @@ jobs:
       uses: dawidd6/action-ansible-playbook@v2
       with:
         playbook: repositories.yml
+        options: |
+        --extra-vars REPO_TOKEN=${{REPO_TOKEN}}
