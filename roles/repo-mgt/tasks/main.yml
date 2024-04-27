@@ -2,7 +2,7 @@
   uri:
     url: https://api.github.com/orgs/brandonbrinkley/repos
     method: GET
-    password: "{{ secrets.REPO_TOKEN }}"
+    password: "{{ REPO_TOKEN }}"
     return_content: true
     headers:
       Content-Type: application/json
