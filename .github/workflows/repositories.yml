@@ -10,6 +10,7 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
+    - run: set
     - name: Run Ansible Playbook
       uses: dawidd6/action-ansible-playbook@v2
       with:
